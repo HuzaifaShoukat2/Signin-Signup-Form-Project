@@ -32,3 +32,36 @@ $(document).ready(function () {
       })
    });
 });
+
+
+
+// Form Validation
+function validateSignInForm() {
+   var username = document.getElementById('signinUsername').value;
+   var password = document.getElementById('signinPassword').value;
+
+   if (username.trim() === '' || password.trim() === '') {
+       alert('Please fill in all fields for Sign In.');
+       return false;
+   }
+
+   // Additional validation if needed
+
+   return true;
+}
+
+// Function to validate Sign Up form
+function validateSignUpForm() {
+   var email = document.getElementById('signupEmail').value;
+   var username = document.getElementById('signupUsername').value;
+   var password = document.getElementById('signupPassword').value;
+
+   if (email.trim() === '' || username.trim() === '' || password.trim() === '') {
+       alert('Please fill in all fields for Sign Up.');
+       return false;
+   }
+
+   // Additional validation if needed
+
+   return true;
+}

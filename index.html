@@ -14,7 +14,7 @@
             <button class="switchSignup">Sign up</button>
         </div>
 
-        <form action="#" class="signin-form">
+        <form action="#" class="signin-form" onsubmit="return validateSignInForm()">
             <div class="input-box">
                 <label for="signinUsername">Username</label>
                 <input type="text" id="signinUsername" required>
@@ -33,7 +33,8 @@
             <hr>
             <a href="#">Forgot password?</a>
         </form>
-        <form action="#" class="signup-form display-none">
+        <!-- SignUp Form -->
+        <form action="#" class="signup-form display-none" onsubmit="return validateSignUpForm()">
             <div class="input-box">
                 <label for="signupEmail">Email</label>
                 <input type="email" id="signupEmail" required>

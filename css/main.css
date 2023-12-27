@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 
-/* 
-    body background: rgb(145, 133, 118)
+
+    /* body background: rgb(145, 133, 118)
 
     button font color rgb(255, 255, 255, .7)
 
     button border color #ff4500
 
-    sign up sign in background rgb(221, 79, 27)
-*/
+    sign up sign in background rgb(221, 79, 27) */
+
 *{
     margin: 0;
     padding: 0;
